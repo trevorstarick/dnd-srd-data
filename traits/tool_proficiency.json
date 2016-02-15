@@ -1,0 +1,12 @@
+{
+	"tool_proficiency": {
+		"dwarf": {
+			"description": "You gain proficiency with the artisan’s tools of your choice: smith’s tools, brewer’s supplies, or mason’s tools.",
+			"range": "self"
+		},
+		"_default": {
+			"description": "You gain proficiency with the artisan’s tools of your choice: smith’s tools, brewer’s supplies, or mason’s tools.",
+			"range": "self"
+		}
+	}
+}

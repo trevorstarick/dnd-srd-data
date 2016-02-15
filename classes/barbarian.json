@@ -1,0 +1,127 @@
+{
+	"barbarian": {
+		"hit_dice": "1d12",
+		"hp": "12 + con",
+		"hp_incr": "{1d12|7} + con",
+		"proficiencies": {
+			"armor": ["light","medium","shield"],
+			"weapons": ["simple", "martial"],
+			"tools": [],
+			"saving": ["str", "con"],
+			"skills_avail": ["animal_handling", "athletics", "intimidation", "nature", "perception", "survival"],
+			"skills": 2
+		},
+		"equipment":[
+			["greataxe", "martial.melee"],
+			["handaxe (2)", "simple.*"],
+			"container.explorer_pack",
+			"javelin (4)"
+		],
+		"abilities": {},
+		"spells": {},
+		"cantrips": {},
+		"level_tree": [
+			{
+				"proficiency_bonus": 2.0,
+				"features": ["rage", "unarmored_defense"],
+				"rages": 2,
+				"rage_damage": 2.0
+			}, {
+				"proficiency_bonus": 2.0,
+				"features": ["reckless_attack", "danger_sense"],
+				"rages": 2,
+				"rage_damage": 2.0
+			}, {
+				"proficiency_bonus": 2.0,
+				"features": ["primal_path", "path_feature_1"],
+				"rages": 3,
+				"rage_damage": 2.0
+			}, {
+				"proficiency_bonus": 2.0,
+				"features": ["ability_score_improvement"],
+				"rages": 3,
+				"rage_damage": 2.0
+			}, {
+				"proficiency_bonus": 3.0,
+				"features": ["extra_attack", "fast_movement"],
+				"rages": 3,
+				"rage_damage": 2.0
+			}, {
+				"proficiency_bonus": 3.0,
+				"features": ["path_feature_2"],
+				"rages": 4,
+				"rage_damage": 2.0
+			}, {
+				"proficiency_bonus": 3.0,
+				"features": ["feral_instinct"],
+				"rages": 4,
+				"rage_damage": 2.0
+			}, {
+				"proficiency_bonus": 3.0,
+				"features": ["ability_score_improvement"],
+				"rages": 4,
+				"rage_damage": 2.0
+			}, {
+				"proficiency_bonus": 4.0,
+				"features": ["brutal_critical_1d"],
+				"rages": 4,
+				"rage_damage": 3.0
+			}, {
+				"proficiency_bonus": 4.0,
+				"features": ["path_feature_3"],
+				"rages": 4,
+				"rage_damage": 3.0
+			}, {
+				"proficiency_bonus": 4.0,
+				"features": ["relentless"],
+				"rages": 4,
+				"rage_damage": 3.0
+			}, {
+				"proficiency_bonus": 4.0,
+				"features": ["ability_score_improvement"],
+				"rages": 5,
+				"rage_damage": 3.0
+			}, {
+				"proficiency_bonus": 5.0,
+				"features": ["brutal_critical_2d"],
+				"rages": 5,
+				"rage_damage": 3.0
+			}, {
+				"proficiency_bonus": 5.0,
+				"features": ["path_feature_4"],
+				"rages": 5,
+				"rage_damage": 3.0
+			}, {
+				"proficiency_bonus": 5.0,
+				"features": ["persistent_rage"],
+				"rages": 5,
+				"rage_damage": 3.0
+			}, {
+				"proficiency_bonus": 5.0,
+				"features": ["ability_score_improvement"],
+				"rages": 5,
+				"rage_damage": 4.0
+			}, {
+				"proficiency_bonus": 6.0,
+				"features": ["brutal_critical_3d"],
+				"rages": 6,
+				"rage_damage": 4.0
+			}, {
+				"proficiency_bonus": 6.0,
+				"features": ["indomitable_might"],
+				"rages": 6,
+				"rage_damage": 4.0
+			}, {
+				"proficiency_bonus": 6.0,
+				"features": ["ability_score_improvement"],
+				"rages": 6,
+				"rage_damage": 4.0
+			}, {
+				"proficiency_bonus": 6.0,
+				"features": ["primal_champion"],
+				"rages": -1,
+				"rage_damage": 4.0
+			} 
+		]
+	}
+}

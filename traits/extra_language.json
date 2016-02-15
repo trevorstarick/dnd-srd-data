@@ -1,0 +1,8 @@
+{
+	"extra_language": {
+		"_default": {
+			"description": "You can speak, read, and write one extra language of your choice.",
+			"range": "self"
+		}
+	}
+}

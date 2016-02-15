@@ -1,0 +1,35 @@
+{
+	"elf": {
+		"description": "",
+		"ability_score_incr": {
+			"strength": 0.0,
+			"dexterity": 2.0,
+			"constitution": 0.0,
+			"intelligence": 0.0,
+			"wisdom": 0.0,
+			"charisma": 0.0,
+			"defense": 0.0,
+			"willpower": 0.0,
+			"perception": 0.0,
+			"luck": 0.0
+		},
+		"age": 0.0,
+		"alignment": [2.0, 0.0],
+		"size": [1.5, 1.8],
+		"weight": 0.0,
+		"speed": 30.0,
+		"language": [
+			"common",
+			"elvish"
+		],
+		"traits": ["darkvision", "keen_senses", "fey_ancestry", "trance"],
+		"subraces": {
+			"high": {
+				"ability_score_incr": {
+					"intelligence": 1.0
+				},
+				"traits": ["elf_weapon_training", "cantrip", "extra_language"]
+			}
+		}
+	}
+}

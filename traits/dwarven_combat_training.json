@@ -1,0 +1,12 @@
+{
+	"dwarven_combat_training": {
+		"dwarf": {
+			"description": "You have proficiency with the battleaxe, handaxe, lighthammer, andwarhammer.",
+			"range": "self"
+		},
+		"_default": {
+			"description": "You have proficiency with the battleaxe, handaxe, lighthammer, andwarhammer.",
+			"range": "self"
+		}
+	}
+}

@@ -1,0 +1,8 @@
+{
+	"brave": {
+		"_default": {
+			"description": "You have advantage on saving throws against being frightened.",
+			"range": "self"
+		}
+	}
+}

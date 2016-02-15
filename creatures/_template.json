@@ -1,0 +1,44 @@
+{
+	"_template": {
+		"size": "",
+		"type": "",
+		"subtype": "",
+		"alignment": [0, 0],
+		"armor_class": "",
+		"armor_type": "",
+		"hit_point_base": 0,
+		"hit_die": "d4",
+		"hit_points_multi": 0.0,	
+		"speed": 0,
+		"movement_type": [""],
+		"ability_scores": {
+			"strength": 0.0,
+			"dexterity": 0.0,
+			"constitution": 0.0,
+			"intelligence": 0.0,
+			"wisdom": 0.0,
+			"charisma": 0.0
+		},
+		"saving_throws": [{
+			"": 0
+		}],
+		"skills": [{
+			"": 0
+		}],
+		"vulnerabilities": [],
+		"resistances": [],
+		"immunities": [],
+		"senses": [{
+			"": 0
+		}],
+		"languages": [{
+			"": 0
+		}],
+		"challange": 0.0,
+		"traits": [],
+		"actions": [],
+		"abilities": [],
+		"equipment": [],
+		"inventory": []
+	}
+}

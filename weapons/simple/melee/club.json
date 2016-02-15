@@ -1,0 +1,9 @@
+{
+	"club": {
+		"cost": 0.1,
+		"damage_die": "1d4",
+		"damage_type": "bludgeoning",
+		"weight": 2,
+		"properites": ["light"]
+	}
+}

@@ -1,0 +1,12 @@
+{
+	"keen_senses": {
+		"elf": {
+			"description": "You have proficiency in the Perception skill.",
+			"range": "self"
+		},
+		"_default": {
+			"description": "You have proficiency in the Perception skill.",
+			"range": "self"
+		}
+	}
+}

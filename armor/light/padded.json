@@ -1,0 +1,11 @@
+{
+	"padded": {
+		"cost": 5.0,
+		"armor_class": 11,
+		"armor_modifier": true,
+		"armor_modifier": 0,
+		"strength_requirement": 0,
+		"stealth": -1,
+		"weight": 8
+	}
+}

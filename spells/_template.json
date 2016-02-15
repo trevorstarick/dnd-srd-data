@@ -1,0 +1,12 @@
+{
+	"_template": {
+		"type": "evocation",
+		"level": "2",
+		"casting_time": 1,
+		"casting_unit": "action",
+		"range": 90,
+		"components": ["V", "S", "M"],
+		"duration": "instantaneous",
+		"desription": ""
+	}
+}

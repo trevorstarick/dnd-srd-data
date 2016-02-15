@@ -1,0 +1,35 @@
+{
+	"halfling": {
+		"description": "",
+		"ability_score_incr": {
+			"strength": 0.0,
+			"dexterity": 2.0,
+			"constitution": 0.0,
+			"intelligence": 0.0,
+			"wisdom": 0.0,
+			"charisma": 0.0,
+			"defense": 0.0,
+			"willpower": 0.0,
+			"perception": 0.0,
+			"luck": 0.0
+		},
+		"age": 0.0,
+		"alignment": [0.0, 0.0],
+		"size": [0.9, 1.0],
+		"weight": 40.0,
+		"speed": 25.0,
+		"language": [
+			"common",
+			"halfling"
+		],
+		"traits": ["lucky", "brave", "halfling_nimbleness"],
+		"subraces": {
+			"lightfoot": {
+				"ability_score_incr": {
+					"charisma": 1
+				},
+				"traits": ["naturally_stealthy"]
+			}
+		}
+	}
+}

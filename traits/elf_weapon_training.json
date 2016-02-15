@@ -1,0 +1,12 @@
+{
+	"elf_weapon_training": {
+		"elf": {
+			"description": "You have proficiency with the longsword, shortsword, shortbow, and longbow.",
+			"range": "self"
+		},
+		"_default": {
+			"description": "You have proficiency with the longsword, shortsword, shortbow, and longbow.",
+			"range": "self"
+		}
+	}
+}

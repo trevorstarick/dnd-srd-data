@@ -1,0 +1,12 @@
+{
+	"halfling_nimbleness": {
+		"halfling":{
+			"description": "You can move through the space of any creature that is of a size larger than yours.",
+			"range": "self"
+		},
+		"_default": {
+			"description": "You can speak, read, and write one extra language of your choice.",
+			"range": "self"
+		}
+	}
+}

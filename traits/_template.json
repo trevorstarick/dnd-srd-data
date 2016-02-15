@@ -1,0 +1,44 @@
+{
+	"_template": {
+		"dragonborn": {
+			"description": "",
+			"range": "self"
+		},
+		"dwarf": {
+			"description": "",
+			"range": "self"
+		},
+		"elf": {
+			"description": "",
+			"range": "self"
+		},
+		"gnome": {
+			"description": "",
+			"range": "self"
+		},
+		"half_elf": {
+			"description": "",
+			"range": "self"
+		},
+		"helf_orc": {
+			"description": "",
+			"range": "self"
+		},
+		"halfling": {
+			"description": "",
+			"range": "self"
+		},
+		"human": {
+			"description": "",
+			"range": "self"
+		},
+		"tiefling": {
+			"description": "",
+			"range": "self"
+		},
+		"_default": {
+			"description": "",
+			"range": "self"
+		}
+	}
+}

@@ -1,0 +1,28 @@
+{
+	"_template": {
+		"hit_dice": "",
+		"hp": "",
+		"hp_incr": "",
+		"proficiencies": {
+			"armor": [],
+			"weapons": [],
+			"tools": [],
+			"saving": [],
+			"skills_avail": [],
+			"skills": 0
+		},
+		"equipment":[],
+		"abilities": {},
+		"spells": {},
+		"cantrips": {},
+		"level_tree": [
+			{
+				"proficiency_bonus": 0.0,
+				"features": [],
+				"cantrip_limit": 0,
+				"spell_limit": 0,
+				"spell_slots_per_spell_level": [0, 0, 0, 0, 0, 0, 0, 0, 0]
+			}
+		]
+	}
+}

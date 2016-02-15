@@ -1,0 +1,12 @@
+{
+	"key_ancestry": {
+		"elf": {
+			"description": "You have advantage on saving throws against being charmed, and magic can’t put you to sleep.",
+			"range": "self"
+		},
+		"_default": {
+			"description": "You have advantage on saving throws against being charmed, and magic can’t put you to sleep.",
+			"range": "self"
+		}
+	}
+}

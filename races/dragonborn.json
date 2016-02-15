@@ -1,0 +1,28 @@
+{
+	"dragonborn": {
+		"description": "",
+		"ability_score_incr": {
+			"strength": 2.0,
+			"dexterity": 0.0,
+			"constitution": 0.0,
+			"intelligence": 0.0,
+			"wisdom": 0.0,
+			"charisma": 1.0,
+			"defense": 0.0,
+			"willpower": 0.0,
+			"perception": 0.0,
+			"luck": 0.0
+		},
+		"age": 0.0,
+		"alignment": [0.0, 0.0],
+		"size": [1.8, 2.1],
+		"weight": 250.0,
+		"speed": 0.0,
+		"language": [
+			"common",
+			"draconic"
+		],
+		"traits": ["draconic_ancestry", "breath_weapon", "damage_resistance"],
+		"subraces": {}
+	}
+}

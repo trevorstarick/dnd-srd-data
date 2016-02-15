@@ -1,0 +1,28 @@
+{
+	"half_orc": {
+		"description": "",
+		"ability_score_incr": {
+			"strength": 2.0,
+			"dexterity": 0.0,
+			"constitution": 1.0,
+			"intelligence": 0.0,
+			"wisdom": 0.0,
+			"charisma": 0.0,
+			"defense": 0.0,
+			"willpower": 0.0,
+			"perception": 0.0,
+			"luck": 0.0
+		},
+		"age": 0.0,
+		"alignment": [2.0, 1.0],
+		"size": [1.5, 2.0],
+		"weight": 0.0,
+		"speed": 30.0,
+		"language": [
+			"common",
+			"orc"
+		],
+		"traits": ["darkvision", "menacing", "relentless_endurance", "savage_attacks"],
+		"subraces": {}
+	}
+}

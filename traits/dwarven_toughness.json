@@ -1,0 +1,12 @@
+{
+	"dwarven_toughness": {
+		"dwarf": {
+			"description": "Your hit point maximum increases by 1, and it increases by 1 every time you gain a level.",
+			"range": "self"
+		},
+		"_default": {
+			"description": "Your hit point maximum increases by 1, and it increases by 1 every time you gain a level.",
+			"range": "self"
+		}
+	}
+}
