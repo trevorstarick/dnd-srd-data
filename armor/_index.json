@@ -1,0 +1,12 @@
+{
+    "light": {
+        "padded": {
+            "cost": 5,
+            "armor_class": 11,
+            "armor_modifier": 0,
+            "strength_requirement": 0,
+            "stealth": -1,
+            "weight": 8
+        }
+    }
+}

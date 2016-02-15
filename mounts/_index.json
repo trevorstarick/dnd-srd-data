@@ -1,0 +1,21 @@
+{
+    "animals": {
+        "camel": {
+            "cost": 50,
+            "speed": 50,
+            "capacity": 480
+        }
+    },
+    "vehicles": {
+        "wagon": {
+            "cost": 35,
+            "weight": 400
+        }
+    },
+    "waterborne": {
+        "galley": {
+            "cost": 30000,
+            "speed": 350
+        }
+    }
+}

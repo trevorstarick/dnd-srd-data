@@ -1,0 +1,13 @@
+{
+    "abacus": {
+        "cost": 2,
+        "weight": 2
+    },
+    "ammunition": {
+        "arrows": {
+            "cost": 1,
+            "weight": 1,
+            "quantity": 20
+        }
+    }
+}

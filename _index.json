@@ -1,0 +1,531 @@
+{
+    "version": "1.0.0",
+    "armor": {
+        "light": {
+            "padded": {
+                "cost": 5,
+                "armor_class": 11,
+                "armor_modifier": 0,
+                "strength_requirement": 0,
+                "stealth": -1,
+                "weight": 8
+            }
+        }
+    },
+    "conditions": {
+        "blinded": {
+            "type": "debuff",
+            "description": [
+                "A blinded creature can’t see and automatically fails any ability check that requires sight.",
+                "Attack rolls against the creature have advantage, and the creature’s attack rolls have disadvantage."
+            ]
+        }
+    },
+    "container": {
+        "backpack": [
+            {
+                "type": "main",
+                "weight": 30
+            }
+        ]
+    },
+    "exchange_rate": {
+        "copper": [
+            1,
+            0.1,
+            0.02,
+            0.01,
+            0.001
+        ],
+        "silver": [
+            10,
+            1,
+            0.2,
+            0.1,
+            0.01
+        ],
+        "electrum": [
+            50,
+            5,
+            1,
+            0.5,
+            0.05
+        ],
+        "gold": [
+            100,
+            10,
+            2,
+            1,
+            0.1
+        ],
+        "platinum": [
+            1000,
+            100,
+            20,
+            10,
+            1
+        ]
+    },
+    "gear": {
+        "abacus": {
+            "cost": 2,
+            "weight": 2
+        },
+        "ammunition": {
+            "arrows": {
+                "cost": 1,
+                "weight": 1,
+                "quantity": 20
+            }
+        }
+    },
+    "mounts": {
+        "animals": {
+            "camel": {
+                "cost": 50,
+                "speed": 50,
+                "capacity": 480
+            }
+        },
+        "vehicles": {
+            "wagon": {
+                "cost": 35,
+                "weight": 400
+            }
+        },
+        "waterborne": {
+            "galley": {
+                "cost": 30000,
+                "speed": 350
+            }
+        }
+    },
+    "races": {
+        "dragonborn": {
+            "description": "",
+            "ability_score_incr": {
+                "strength": 2,
+                "dexterity": 0,
+                "constitution": 0,
+                "intelligence": 0,
+                "wisdom": 0,
+                "charisma": 1,
+                "defense": 0,
+                "willpower": 0,
+                "perception": 0,
+                "luck": 0
+            },
+            "age": 0,
+            "alignment": [
+                0,
+                0
+            ],
+            "size": [
+                1.8,
+                2.1
+            ],
+            "weight": 250,
+            "speed": 0,
+            "language": [
+                "common",
+                "draconic"
+            ],
+            "traits": [
+                "draconic_ancestry",
+                "breath_weapon",
+                "damage_resistance"
+            ],
+            "subraces": {}
+        },
+        "dwarf": {
+            "description": "",
+            "ability_score_incr": {
+                "strength": 0,
+                "dexterity": 0,
+                "constitution": 2,
+                "intelligence": 0,
+                "wisdom": 0,
+                "charisma": 0,
+                "defense": 0,
+                "willpower": 0,
+                "perception": 0,
+                "luck": 0
+            },
+            "age": 0,
+            "alignment": [
+                0,
+                0
+            ],
+            "size": [
+                1.2,
+                1.5
+            ],
+            "weight": 0,
+            "speed": 25,
+            "language": [
+                "common",
+                "dwarvish"
+            ],
+            "traits": [
+                "darkvision",
+                "dwarven_resilience",
+                "dwarven_combat_training",
+                "tool_proficiency",
+                "stonecunning"
+            ],
+            "subraces": {
+                "hill": {
+                    "ability_score_incr": {
+                        "wisdom": 1
+                    },
+                    "traits": [
+                        "dwarven_toughness"
+                    ]
+                }
+            }
+        },
+        "elf": {
+            "description": "",
+            "ability_score_incr": {
+                "strength": 0,
+                "dexterity": 2,
+                "constitution": 0,
+                "intelligence": 0,
+                "wisdom": 0,
+                "charisma": 0,
+                "defense": 0,
+                "willpower": 0,
+                "perception": 0,
+                "luck": 0
+            },
+            "age": 0,
+            "alignment": [
+                2,
+                0
+            ],
+            "size": [
+                1.5,
+                1.8
+            ],
+            "weight": 0,
+            "speed": 30,
+            "language": [
+                "common",
+                "elvish"
+            ],
+            "traits": [
+                "darkvision",
+                "keen_senses",
+                "fey_ancestry",
+                "trance"
+            ],
+            "subraces": {
+                "high": {
+                    "ability_score_incr": {
+                        "intelligence": 1
+                    },
+                    "traits": [
+                        "elf_weapon_training",
+                        "cantrip",
+                        "extra_language"
+                    ]
+                }
+            }
+        },
+        "gnome": {
+            "description": "",
+            "ability_score_incr": {
+                "strength": 0,
+                "dexterity": 0,
+                "constitution": 0,
+                "intelligence": 2,
+                "wisdom": 0,
+                "charisma": 0,
+                "defense": 0,
+                "willpower": 0,
+                "perception": 0,
+                "luck": 0
+            },
+            "age": 0,
+            "alignment": [
+                0,
+                0
+            ],
+            "size": [
+                0.9,
+                1.2
+            ],
+            "weight": 40,
+            "speed": 25,
+            "language": [
+                "common",
+                "gnomish"
+            ],
+            "traits": [
+                "darkvision",
+                "gnome_cunning"
+            ],
+            "subraces": {
+                "rock": {
+                    "ability_score_incr": {
+                        "constitution": 1
+                    },
+                    "traits": [
+                        "artificers_lore",
+                        "tinker"
+                    ]
+                }
+            }
+        },
+        "half_elf": {
+            "description": "",
+            "ability_score_incr": {
+                "strength": 0,
+                "dexterity": 0,
+                "constitution": 0,
+                "intelligence": 0,
+                "wisdom": 0,
+                "charisma": 2,
+                "defense": 0,
+                "willpower": 0,
+                "perception": 0,
+                "luck": 0
+            },
+            "age": 0,
+            "alignment": [
+                2,
+                0
+            ],
+            "size": [
+                1.5,
+                1.8
+            ],
+            "weight": 0,
+            "speed": 30,
+            "language": [
+                "common",
+                "elvish"
+            ],
+            "traits": [
+                "darkvision",
+                "fey_ancestry",
+                "skill_versatility",
+                "extra_language"
+            ],
+            "subraces": {}
+        },
+        "half_orc": {
+            "description": "",
+            "ability_score_incr": {
+                "strength": 2,
+                "dexterity": 0,
+                "constitution": 1,
+                "intelligence": 0,
+                "wisdom": 0,
+                "charisma": 0,
+                "defense": 0,
+                "willpower": 0,
+                "perception": 0,
+                "luck": 0
+            },
+            "age": 0,
+            "alignment": [
+                2,
+                1
+            ],
+            "size": [
+                1.5,
+                2
+            ],
+            "weight": 0,
+            "speed": 30,
+            "language": [
+                "common",
+                "orc"
+            ],
+            "traits": [
+                "darkvision",
+                "menacing",
+                "relentless_endurance",
+                "savage_attacks"
+            ],
+            "subraces": {}
+        },
+        "halfling": {
+            "description": "",
+            "ability_score_incr": {
+                "strength": 0,
+                "dexterity": 2,
+                "constitution": 0,
+                "intelligence": 0,
+                "wisdom": 0,
+                "charisma": 0,
+                "defense": 0,
+                "willpower": 0,
+                "perception": 0,
+                "luck": 0
+            },
+            "age": 0,
+            "alignment": [
+                0,
+                0
+            ],
+            "size": [
+                0.9,
+                1
+            ],
+            "weight": 40,
+            "speed": 25,
+            "language": [
+                "common",
+                "halfling"
+            ],
+            "traits": [
+                "lucky",
+                "brave",
+                "halfling_nimbleness"
+            ],
+            "subraces": {
+                "lightfoot": {
+                    "ability_score_incr": {
+                        "charisma": 1
+                    },
+                    "traits": [
+                        "naturally_stealthy"
+                    ]
+                }
+            }
+        },
+        "human": {
+            "description": "",
+            "ability_score_incr": {
+                "strength": 1,
+                "dexterity": 1,
+                "constitution": 1,
+                "intelligence": 1,
+                "wisdom": 1,
+                "charisma": 1,
+                "defense": 0,
+                "willpower": 0,
+                "perception": 0,
+                "luck": 0
+            },
+            "age": 0,
+            "alignment": [
+                0,
+                0
+            ],
+            "size": [
+                1.5,
+                1.8
+            ],
+            "weight": 0,
+            "speed": 30,
+            "language": [
+                "common"
+            ],
+            "traits": [
+                "extra_language"
+            ],
+            "subraces": {}
+        },
+        "tiefling": {
+            "description": "",
+            "ability_score_incr": {
+                "strength": 0,
+                "dexterity": 0,
+                "constitution": 0,
+                "intelligence": 1,
+                "wisdom": 0,
+                "charisma": 2,
+                "defense": 0,
+                "willpower": 0,
+                "perception": 0,
+                "luck": 0
+            },
+            "age": 0,
+            "alignment": [
+                2,
+                2
+            ],
+            "size": [
+                1.5,
+                1.8
+            ],
+            "weight": 0,
+            "speed": 30,
+            "language": [
+                "common",
+                "infernal"
+            ],
+            "traits": [
+                "darkvision",
+                "hellish_resistance",
+                "infernal_legacy"
+            ],
+            "subraces": {}
+        }
+    },
+    "tools": {
+        "artisans": {
+            "alchemist": {
+                "cost": 50,
+                "weight": 8
+            }
+        }
+    },
+    "traits": {
+        "darkvision": {
+            "dwarf": {
+                "description": "Accustomed to life underground, you have superior vision in dark and dim conditions. You can see in dim light within 60 feet of you as if it were bright light, and in darkness as if it were dim light. You can’t discern color in darkness, only shades of gray"
+            },
+            "elf": {
+                "description": "Accustomed to twilit forests and the night sky, you have superior vision in dark and dim conditions. You can see in dim light within 60 feet of you as if it were bright light, and in darkness as if it were dim light. You can’t discern color in darkness, only shades of gray"
+            },
+            "gnome": {
+                "description": "Accustomed to life underground, you have superior vision in dark and dim conditions. You can see in dim light within 60 feet of you as if it were bright light, and in darkness as if it were dim light. You can’t discern color in darkness, only shades of gray"
+            },
+            "half_elf": {
+                "description": "Thanks to your elf blood, you have superior vision in dark and dim conditions. You can see in dim light within 60 feet of you as if it were bright light, and in darkness as if it were dim light. You can’t discern color in darkness, only shades of gray"
+            },
+            "half_orc": {
+                "description": "Thanks to your orc blood, you have superior vision in dark and dim conditions. You can see in dim light within 60 feet of you as if it were bright light, and in darkness as if it were dim light. You can’t discern color in darkness, only shades of gray."
+            },
+            "tiefling": {
+                "description": "Thanks to your infernal heritage, you have superior vision in dark and dim conditions. You can see in dim light within 60 feet of you as if it were bright light, and in darkness as if it were dim light. You can’t discern color in darkness, only shades of gray"
+            },
+            "_default": {
+                "description": "You have superior vision in dark and dim conditions. You can see in dim light within 60 feet of you as if it were bright light, and in darkness as if it were dim light. You can’t discern color in darkness, only shades of gray"
+            }
+        },
+        "dwarven_combat_training": {
+            "dwarf": {
+                "description": "You have proficiency with the battleaxe, handaxe, lighthammer, andwarhammer."
+            },
+            "_default": {
+                "description": "You have proficiency with the battleaxe, handaxe, lighthammer, andwarhammer."
+            }
+        },
+        "dwarven_resilience": {
+            "dwarf": {
+                "description": "You have advantage on saving throws against poison, and you have resistance against poison damage."
+            },
+            "_default": {
+                "description": "You have advantage on saving throws against poison, and you have resistance against poison damage."
+            }
+        }
+    },
+    "weapons": {
+        "simple_melee": {
+            "club": {
+                "cost": 0.1,
+                "damage_die": "1d4",
+                "damage_type": "bludgeoning",
+                "weight": 2,
+                "properites": [
+                    "light"
+                ]
+            }
+        }
+    }
+}
